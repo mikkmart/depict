@@ -16,6 +16,6 @@ public class WebController {
   @RequestMapping("/")
   public String redirect()
   {
-    return "redirect:/depict.html";
+    return "redirect:./depict.html";
   }
 }
